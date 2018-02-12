@@ -140,7 +140,7 @@ div#textoPresentacion{
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px gray;
-		
+
 }
 
 legend{
@@ -155,7 +155,7 @@ legend{
 
 @media (min-width: 1200px) {
 	#contenedor{
-		height: 2530px;
+		height: 2550px;
 	}
 }
 @media (min-width: 1101px) and (max-width: 1199px){
