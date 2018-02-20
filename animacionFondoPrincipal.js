@@ -1,9 +1,3 @@
-/*$(document).ready(function() {
-	$("#video-background").animate({left: "500px"},5000);
-
-
-});
-*/
 window.onload=function(){
     var div=document.getElementById("video-background");
     var pos=0;
