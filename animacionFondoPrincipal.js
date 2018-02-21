@@ -4,5 +4,5 @@ window.onload=function(){
     setInterval(function(){
         pos=(pos+3)%400;
         div.style.backgroundPosition=pos+"px 0px";
-    },30);
+    },40);
 }

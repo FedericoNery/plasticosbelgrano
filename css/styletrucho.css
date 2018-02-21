@@ -159,24 +159,24 @@ legend{
 
 @media (min-width: 1200px) {
 	#contenedor{
-		height: 2550px;
+		height: 2580px;
 	}
 }
 @media (min-width: 1101px) and (max-width: 1199px){
 	#contenedor{
-		height: 3400px;
+		height: 3430px;
 	}
 }
 
 @media (min-width: 980px) and (max-width: 1100px){
 	#contenedor{
-		height: 5200px;
+		height: 5230px;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
 	#contenedor{
-		height: 6050px;
+		height: 6080px;
 	}
 }
 
