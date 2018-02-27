@@ -18,7 +18,7 @@ Fabricaci&oacute;n de Film de EVA de etilvinil acetato, en color o cristal y par
     <link href="css/styletrucho.css" rel="stylesheet">
     <script src="js/ie-emulation-modes-warning.js"></script>
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script type="text/javascript" src="animacionFondoPrincipal.js"></script>
+   <!--<script type="text/javascript" src="animacionFondoPrincipal.js"></script> -->
   </head>
 
   <body>
@@ -51,7 +51,7 @@ Fabricaci&oacute;n de Film de EVA de etilvinil acetato, en color o cristal y par
                </h2>
             </row>
           </div>
-          <img src="http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0.65+100" id="video-background" class="image">
+          <img src="http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0.65+100" id="video-background" />
         </div>
     </div>
 
@@ -154,8 +154,8 @@ Fabricaci&oacute;n de Film de EVA de etilvinil acetato, en color o cristal y par
           <div class="row">&nbsp;</div>
           <div class="row">&nbsp;</div>
           <div class="row">&nbsp;</div>
-          <legend> Formulario de Contacto(No disponible por el momento)</legend>
-            <form action="send_form_email.php" method="post">
+          <legend> Formulario de Contacto</legend>
+            <form action="enviarmail.php" method="post">
               <label>Email</label>
                   <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -175,7 +175,7 @@ Fabricaci&oacute;n de Film de EVA de etilvinil acetato, en color o cristal y par
                   </div>
               <div class="form-group">
                   <input type="submit" value="Enviar" class="btn btn-primary">
-                  <a href="send_email_form.php"></a>
+                  <a href="enviarmail.php"></a>
               </div>
           </form>
         </div>
@@ -205,10 +205,19 @@ Fabricaci&oacute;n de Film de EVA de etilvinil acetato, en color o cristal y par
 </div>
 <!--FOOTER-->
   <div class="mastfoot" id="piedepagina">
-    <div class="inner">
-      <p>&copy;Pl&aacute;sticos Belgrano SA 2018</p>
-      <p>Creado por <a href="https://github.com/FedericoNery">Federico Nery</a></p>
-    </div>
+	<div class="inner">
+		<div class="row">
+		<div class="col-sm-4" >&nbsp;</div>
+		<div class="col-sm-4" >&copy;Pl&aacute;sticos Belgrano SA 2018</div>
+		<div class="col-sm-4" >
+			<a id="logoFacebook" href="https://www.facebook.com/plasticosbelgrano/" target="_blank">
+			<img id="logoFacebook" src="https://lh3.googleusercontent.com/-p36RQiaNpZU/T6P5QFjPz_I/AAAAAAAAAxI/QLR60pfni-s/s48/facebook48.png"alt="Los Tejos" width=36 height=36 /></a>
+		</div>
+		</div>
+		<div class="row">
+			<p>Creado por <a href="https://github.com/FedericoNery" target="_blank">Federico Nery</a></p>
+		</div>
+	</div>
   </div>
   </body>
 </html>
